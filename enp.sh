@@ -43,5 +43,7 @@ for archivo in 2022-*-ENP*-L1.CSV;do # Los archivos se manejan con expansiones y
 	# Manda la salida estandar del comando, en este caso el que acomoda las salidas, hacia el archivo. Lo añade al final de la informacion existente.
 done
 
+# Para generar las graficas
+# python graficar.py --file pembu.CSV --variable Tmax
 
 

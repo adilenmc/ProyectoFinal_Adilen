@@ -1,5 +1,3 @@
-# ProyectoFinal_Adilen
-Repositorio publico. Incluye el código con el que se creó el CSV.
 #!/bin/bash
 # Variables que direccionen las bases de datos
 data="ProyecFinal/estaciones-ENP"
@@ -44,3 +42,6 @@ for archivo in 2022-*-ENP*-L1.CSV;do # Los archivos se manejan con expansiones y
 	# >> redirecciona la salida al archivo previamente definido pmbu.CSV
 	# Manda la salida estandar del comando, en este caso el que acomoda las salidas, hacia el archivo. Lo añade al final de la informacion existente.
 done
+
+
+
